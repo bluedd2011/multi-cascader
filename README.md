@@ -8,7 +8,7 @@
 * 标签框用的是```element-ui```的```tag```组件，它的宽度无法设置最大宽度，因此无法控制```tag```的宽度。
 * 浮层基于```element-ui```的```popover```组件，因此可以设置浮层位置，也可以让它自由决定浮层位置。
 * 记得引入```element-ui```的样式文件```import 'element-ui/lib/theme-chalk/index.css'```。
-* 本组件源码使用```pug```、```stylus```。
+* 本组件源码使用```pug```、```stylus```，注意安装相关loader。
 
 
 ## Attribute
