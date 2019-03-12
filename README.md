@@ -1,6 +1,8 @@
-## 目标
+## 介绍
 
-开发一个多级联动的，可多选的```vue```组件。基于```vue 2```、```element-ui 2```。
+这是一个多级联动的，可多选的```vue```组件。
+
+本组件开发基于```vue 2.6.6```、```element-ui 2.6.1```。
 
 ## 注意
 
@@ -56,20 +58,19 @@ getSelected |   获取所有选中的节点              |
 
 ## 使用案例
 
-在模板中使用（例子使用了```pug```语法）
+```html
+<template lang="pug">
+  multi-cascader(
+    ref='myMultiCascader'
+    :style='{width: "300px"}'
+    :options='options'
+    :render-tag-label='renderTagLabel'
+    @change='changeCascader'
+  )
+</template>
 
-```
-multi-cascader(
-  ref='myMultiCascader'
-  :style='{width: "300px"}'
-  :options='options'
-  :render-tag-label='renderTagLabel'
-  @change='changeCascader'
-)
-```
-
-```js
-import MultiCascader from './components/MultiCascader.vue'
+<script>
+import MultiCascader from 'multi-cascader'
 
 export default {
   components: {
@@ -111,4 +112,12 @@ export default {
     }
   }
 }
+```
+
+如果想要全局引入，可在 main.js 写入以下内容：
+
+```js
+import MultiCascader from 'multi-cascader'
+
+Vue.use(MultiCascader)
 ```

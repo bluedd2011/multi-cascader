@@ -1,0 +1,19 @@
+{
+  "name": "multi-cascader",
+  "version": "1.0.0",
+  "description": "这是一个多级联动的，可多选的```vue```组件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluedd2011/multi-cascader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluedd2011/multi-cascader/issues"
+  },
+  "homepage": "https://github.com/bluedd2011/multi-cascader#readme"
+}

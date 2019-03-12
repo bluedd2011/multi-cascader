@@ -37,6 +37,7 @@
 
 <script>
 export default {
+  name: 'MultiCascader',
   props: {
     props: {
       type: Object,
