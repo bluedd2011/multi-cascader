@@ -4,7 +4,7 @@
 
 本组件开发基于```vue 2.6.6```、```element-ui 2.6.1```。
 
-![效果](http://cdn.ninix.cn/multi-cascader.png)
+<img src="http://cdn.ninix.cn/multi-cascader.png" alt="效果图">
 
 ## 注意
 
