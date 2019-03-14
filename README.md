@@ -4,6 +4,8 @@
 
 本组件开发基于```vue 2.6.6```、```element-ui 2.6.1```。
 
+![效果](http://cdn.ninix.cn/multi-cascader.png)
+
 ## 注意
 
 * 不支持全选功能。
